@@ -1,0 +1,3 @@
+# ScrollView vs FlatList
+ScrollView carrega totalmente todos os elementos e "esconde". (Utilizado em listas de valores fixos tipo "menus")
+FlatList carrega somente os que conseguem ser visualizados ao realizar scroll então é carregado o restante. (+ performance)
