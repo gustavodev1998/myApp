@@ -1,3 +1,16 @@
 # ScrollView vs FlatList
 ScrollView carrega totalmente todos os elementos e "esconde". (Utilizado em listas de valores fixos tipo "menus")
 FlatList carrega somente os que conseguem ser visualizados ao realizar scroll então é carregado o restante. (+ performance)
+
+
+#Imutabilidade
+Geralmente há duas maneiras de alterar dados.
+
+A primeira é mudar o dado alterando diretamente o seu valor. A segunda maneira é substituir o dado antigo por uma nova cópia com as alterações desejadas.
+
+
+# Renderização
+
+Há duas razões base para um componente renderizar
+    * Quando é a renderização inicial do componente.
+    * Quando o estado do componente mudou.
